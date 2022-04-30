@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/style.css" type="text/css" rel="stylesheet" />
+    <title>Colour Flipper</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navigation navigation-center">
+        <h1 class="navigation__title">Colour Flipper</h1>
+        <ul class="navigation__links">
+          <li class="navigation__links__item">
+            <a href="/" class="navigation__links__item__link" id="simple">RGB</a>
+          </li>
+          <li class="navigation__links__item">
+            <a href="#" class="navigation__links__item__link" id="hex">HEX</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="main">
+      <div class="container container--simple">
+        <h2 class="container__title">Background Colour
+          
+        </h2>
+        <p id="colorId">RGB Colour</p>
+        <button class="button" id="change-bg-btn">Change BG Colour</button>
+      </div>
+
+      <div class="container container--hex">
+        <h2 class="container__title">Background Colour in HEX
+          
+        </h2>
+        <p id="colorId--hex">HEX Colour</p>
+        <button class="button" id="change-bg-btn--hex">Change BG Color</button>
+      </div>
+    </div>
+
+    <script src="/index.js" type="text/javascript"></script>
+  </body>
+</html>

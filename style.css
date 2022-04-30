@@ -1,0 +1,119 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+body {
+  background-color: rgba(221, 246, 248, 0.827);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  transition: all 1s;
+}
+
+/* Navigation Area */
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: rgba(255, 255, 255, 0.732);
+  
+  box-shadow: -0.5rem 0.5rem 1rem rgba(42, 41, 41, 0.52);
+  align-items: center;
+}
+
+.navigation__title {
+  width: 20%;
+  color: rgb(123, 115, 175);
+  letter-spacing: 0.2rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navigation__links {
+  width: 80%;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.navigation__links__item {
+  list-style: none;
+  margin: 2rem 0;
+}
+
+.navigation__links__item__link {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: rgb(118, 107, 189);
+}
+
+/* Main & Container */
+
+.main {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.container {
+  background-color: rgb(0, 0, 0);
+  box-shadow: 0.2rem 0.2rem 2rem rgb(243, 229, 229);
+  height: 200px;
+  width: 30vw;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.container__title {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  line-height: 5rem;
+  padding: 0;
+  margin: 0;
+}
+
+.container--hex {
+  display: none;
+}
+
+#colorId,
+#colorId--hex {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 3rem;
+  padding: 0;
+  margin: 0;
+}
+
+/* Button */
+
+.button {
+  background-color: transparent;
+  padding: 1.2rem;
+  border: 0.2rem solid rgb(123, 115, 175);
+  border-radius: 25px;
+  color: slateblue;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  margin-top: 1.2rem;
+}
